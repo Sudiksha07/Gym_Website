@@ -10,13 +10,8 @@ export default function Home() {
   return (
 <Box>
   <HeroBanner/>
-  <SearchExercies setExercises={setExercises}
-    bodyPart={bodyPart}
-    setBodyPart={setBodyPart}
-  />
-  <Exercises setExercises={setExercises}
-    bodyPart={bodyPart}
-    setBodyPart={setBodyPart}/>
+  <SearchExercies setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+      <Exercises exercises={exercise} setExercises={setExercises} bodyPart={bodyPart} />
 </Box>
   )
 }

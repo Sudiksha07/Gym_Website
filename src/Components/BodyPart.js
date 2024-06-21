@@ -16,9 +16,10 @@ sx={bodyPart === item ? { borderTop: '4px solid #FF2625', background: '#fff', bo
     }}
      
 >
-    <img src={Icon} alt="dumbell" styles={{width:'40px',height:'40px'}}
+    <img src={Icon} alt="dumbell" style={{width:'40px',height:'40px'}}
 
     />
+     <Typography fontSize="24px" fontWeight="bold" fontFamily="Alegreya" color="#3A1212" textTransform="capitalize"> {item}</Typography>
     {/* <Typography>{item}</Typography> */}
 </Stack>
   )
