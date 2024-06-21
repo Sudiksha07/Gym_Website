@@ -4,7 +4,7 @@ import {Route,Routes} from 'react-router-dom';
 import {Box} from '@mui/material';
 import NavBar from './Components/NavBar';
 import Home from './pages/Home';
-import ExerciseDetail from './pages/Exercise';
+import ExerciseDetail from './pages/ExerciseDetail';
 import Footer from './Components/Footer';
 function App() {
   return(
