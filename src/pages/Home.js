@@ -14,6 +14,7 @@ export default function Home() {
         setExercises={setExercises}
         bodyPart={bodyPart}
         setBodyPart={setBodyPart}
+       
       />
       <Exercises
         setExercises={setExercises}
